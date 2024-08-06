@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="Sushma Koirala Memorial Engineering College offers a variety of engineering diploma programs including Computer Engineering and Civil Engineering.">
+    <meta name="keywords" content="Diploma in Computer Engineering, Diploma in Civil Engineering, Sushma Koirala Memorial Engineering College, Engineering Education">
+    <meta name="author" content="Your Name">
+
+    <title>Diploma Programs | Sushma Koirala Memorial Engineering College</title>
+
+    <link rel="stylesheet" href="css/main_style.css">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/svg+xml">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap">
+    <style>
+        /* Additional CSS for Cards and Layout */
+        
+        .diploma-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px auto;
+        }
+        
+        .diploma-card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 15px;
+            overflow: hidden;
+            width: calc(33% - 30px);
+            transition: transform 0.3s ease;
+        }
+        
+        .diploma-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .diploma-card-content {
+            padding: 15px;
+            text-align: center;
+            /* Center text */
+        }
+        
+        .diploma-card-content h2 {
+            font-family: 'Roboto', sans-serif;
+            /* Apply font */
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        
+        .diploma-card-content p {
+            font-family: 'Open Sans', sans-serif;
+            /* Apply font */
+            font-size: 1em;
+            color: #666;
+        }
+        
+        @media (max-width: 768px) {
+            .diploma-card {
+                width: calc(50% - 30px);
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .diploma-card {
+                width: calc(100% - 30px);
+            }
+        }
+        /* Centering text in Course Details section */
+        
+        .course-details h2,
+        .course-details h3 {
+            text-align: center;
+            /* Center text */
+            font-family: 'Roboto', sans-serif;
+            /* Apply font */
+        }
+        /* Center the Entry Requirements card */
+        
+        .entry-requirements {
+            display: flex;
+            justify-content: center;
+            /* Center horizontally */
+            margin: 20px auto;
+        }
+        
+        .entry-requirements .diploma-card {
+            width: 100%;
+            /* Full width for the card */
+            max-width: 800px;
+            /* Maximum width */
+        }
+        
+        .entry-requirements .diploma-card-content {
+            font-family: 'Open Sans', sans-serif;
+            /* Apply font */
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png" id="logo-img" alt="Sushma Koirala Memorial Engineering College Logo"></a>
+
+            <div class="nav-links" id="navLinks">
+                <span class="icon" onclick="hideMenu()">&#10005;</span>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Admission_page.html">Admission</a></li>
+                    <li><a href="index.html#course_call">Courses</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="notice.html">Notice</a></li>
+                </ul>
+            </div>
+            <span class="icon" onclick="showMenu()">&#9776;</span>
+        </nav>
+
+        <div class="text-box">
+            <h1>Diploma Programs</h1>
+        </div>
+    </section>
+
+    <!-- College Overview Section -->
+    <section class="college-overview">
+        <div class="text-box">
+            <h1>Sushma Koirala Memorial Engineering College</h1>
+            <p>Founded in 1997 AD (2057 BS), Sushma Koirala Memorial Engineering College is a technical institution situated in Itahari, Sunsari district of Nepal, close to Itahari Stadium. The college is affiliated with the Council for Technical Education
+                and Vocational Training (CTEVT) for its Diploma programs. We offer three-year diploma courses such as Civil Engineering and Computer Engineering, each with 48 seats annually. Scholarships are available for economically disadvantaged students.</p>
+        </div>
+    </section>
+
+    <div class="diploma-cards">
+        <!-- Diploma in Computer Engineering Card -->
+        <div class="diploma-card">
+            <img src="image/computer-engineering.jpg" alt="Diploma in Computer Engineering">
+            <div class="diploma-card-content">
+                <h2>Diploma in Computer Engineering</h2>
+                <p>A three-year program focusing on computer hardware, software, and networking. Graduates can pursue careers as computer technicians, network administrators, software developers, or IT support specialists.</p>
+            </div>
+        </div>
+
+        <!-- Diploma in Civil Engineering Card -->
+        <div class="diploma-card">
+            <img src="image/civil-engineering.jpg" alt="Diploma in Civil Engineering">
+            <div class="diploma-card-content">
+                <h2>Diploma in Civil Engineering</h2>
+                <p>A three-year program covering the design, construction, and maintenance of infrastructure. Graduates can work as civil engineering technicians, construction supervisors, site engineers, or quality control inspectors.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Course Details Section -->
+    <section class="course-details">
+        <h2>Course Details</h2>
+
+        <h3>Diploma in Computer Engineering Course Structure</h3>
+        <div class="diploma-cards">
+            <!-- First Year Card -->
+            <div class="diploma-card">
+                <img src="image/first-year.jpg" alt="First Year Curriculum">
+                <div class="diploma-card-content">
+                    <h2>First Year</h2>
+                    <p><strong>First Semester:</strong> Nepali, Applied English, Mathematics I, Physics I, Chemistry I, Drawing I, Computer Application</p>
+                    <p><strong>Second Semester:</strong> Mathematics II, Physics II, Chemistry II, Workshop Practice I, Engineering Drawing II, Applied Mechanics</p>
+                </div>
+            </div>
+
+            <!-- Second Year Card -->
+            <div class="diploma-card">
+                <img src="image/second-year.jpg" alt="Second Year Curriculum">
+                <div class="diploma-card-content">
+                    <h2>Second Year</h2>
+                    <p><strong>Third Semester:</strong> Mathematics III, C Programming, Web Technology I, Digital Logic, Discrete Structure, Software Engineering, Electrical</p>
+                    <p><strong>Fourth Semester:</strong> DBMS, Data Structure, Java, Microprocessor, Web Technology II, Statistics and Probability</p>
+                </div>
+            </div>
+
+            <!-- Third Year Card -->
+            <div class="diploma-card">
+                <img src="image/third-year.jpg" alt="Third Year Curriculum">
+                <div class="diploma-card-content">
+                    <h2>Third Year</h2>
+                    <p><strong>Fifth Semester:</strong> Computer Graphics, Data Communication, Operating System, Computer Repair and Maintenance, Data Mining and Warehouse, Elective I, Minor Project</p>
+                    <p><strong>Sixth Semester:</strong> Multimedia System, Internet of Things, Information Security, Entrepreneurship Development, Elective II, Major Project</p>
+                </div>
+            </div>
+        </div>
+
+        <h3>Diploma in Civil Engineering Course Structure</h3>
+        <div class="diploma-cards">
+            <!-- First Year Card -->
+            <div class="diploma-card">
+                <img src="image/civil-first.jpg" alt="First Year Curriculum">
+                <div class="diploma-card-content">
+                    <h2>First Year</h2>
+                    <p><strong>First Semester:</strong> Nepali, Applied English, Mathematics I, Physics I, Chemistry I, Drawing I, Computer Application</p>
+                    <p><strong>Second Semester:</strong> Mathematics II, Physics II, Chemistry II, Workshop Practice I, Engineering Drawing II, Applied Mechanics</p>
+                </div>
+            </div>
+
+            <!-- Second Year Card -->
+            <div class="diploma-card">
+                <img src="image/civil-second.jpg" alt="Second Year Curriculum">
+                <div class="diploma-card-content">
+                    <h2>Second Year</h2>
+                    <p><strong>Third Semester:</strong> Mathematics III, Surveying I, Workshop Practice II, Fluid and Hydraulics, Building Construction, Engineering Materials</p>
+                    <p><strong>Fourth Semester:</strong> Social Engineering, Construction Drawing and CAD, Surveying II, Estimating and Costing I, Mechanics Of Structure, Soil Mechanics, Water Supply</p>
+                </div>
+            </div>
+
+            <!-- Third Year Card -->
+            <div class="diploma-card">
+                <img src="image/civil-third.jpg" alt="Third Year Curriculum">
+                <div class="diploma-card-content">
+                    <h2>Third Year</h2>
+                    <p><strong>Fifth Semester:</strong> Surveying III, Estimating and Costing II, RCC, Transportation I, Sanitary, Construction Management, Steel and Timber</p>
+                    <p><strong>Sixth Semester:</strong> Field Survey Camp, Transportation II, Estimating and Costing III, Water Resource & Irrigation, Entrepreneurship, Project Work, Elective: Hill Road</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Entry Requirements Section -->
+    <section class="entry-requirements">
+        <div class="diploma-card">
+            <div class="diploma-card-content">
+                <h2>Entry Requirements</h2>
+                <p><strong>Academic Level:</strong> A minimum GPA of 1.6 in the SEE, with specific grade requirements in core subjects such as Mathematics, Science, and English. Typically, at least a C grade in these subjects is required.</p>
+                <p><strong>Entrance Examination:</strong> Students must pass an entrance examination conducted by the CTEVT. This exam tests basic knowledge in Mathematics, Science, and English.</p>
+                <p><strong>Application Process:</strong> Submission of a completed application form along with required documents such as SEE mark sheets, citizenship certificate / Birth Certificate, recent photographs, and other relevant certificates.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="footer-content">
+            <h2>About Us</h2>
+            <p>Sushma Koirala Memorial Engineering College offers a range of diploma programs designed to provide high-quality education and support student success. Our dedicated faculty and advanced facilities ensure a rewarding academic experience.</p>
+            <p id="copyright">© 2024 Sushma Koirala Memorial Engineering College | Maintained by: Center for Information Technology</p>
+            <p>Contact: Itahari-09, Sunsari | 9852055456 | info@godawari.edu.np</p>
+        </div>
+
+        <!-- Map Card -->
+        <div class="map-card">
+            <h3>Find Us Here</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3530.171604978785!2d87.2748639!3d26.6540805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef6c6ffd419ad7%3A0x3c19a0cb1869a764!2sSushma%20Koirala%20Memorial%20College!5e0!3m2!1sen!2sin!4v1692679323396!5m2!1sen!2sin"
+                width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- Javascript -->
+    <script src="javascript/main_script.js"></script>
+</body>
+
+</html>
